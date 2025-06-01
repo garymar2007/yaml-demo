@@ -1,0 +1,36 @@
+---
+school:
+  name: Greenwood High School
+  location: 123 Elm Street, Springfield
+  established: '1995'
+  principal: Dr. Jane Smith
+  students:
+    student:
+      - name: John Doe
+        grade: '10'
+        age: '15'
+        _id: '1'
+      - name: Mary Johnson
+        grade: '11'
+        age: '16'
+        _id: '2'
+      - name: James Brown
+        grade: '12'
+        age: '17'
+        _id: '3'
+  teachers:
+    teacher:
+      - name: Mr. Robert White
+        subject: Mathematics
+        _id: '1'
+      - name: Ms. Linda Green
+        subject: English Literature
+        _id: '2'
+  courses:
+    course:
+      - title: Algebra I
+        credits: '3'
+        _code: MATH101
+      - title: English Literature II
+        credits: '3'
+        _code: ENG201

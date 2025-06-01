@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<school>
+    <name>Greenwood High School</name>
+    <location>123 Elm Street, Springfield</location>
+    <established>1995</established>
+    <principal>Dr. Jane Smith</principal>
+    <students>
+        <student id="1">
+            <name>John Doe</name>
+            <grade>10</grade>
+            <age>15</age>
+        </student>
+        <student id="2">
+            <name>Mary Johnson</name>
+            <grade>11</grade>
+            <age>16</age>
+        </student>
+        <student id="3">
+            <name>James Brown</name>
+            <grade>12</grade>
+            <age>17</age>
+        </student>
+    </students>
+    <teachers>
+        <teacher id="1">
+            <name>Mr. Robert White</name>
+            <subject>Mathematics</subject>
+        </teacher>
+        <teacher id="2">
+            <name>Ms. Linda Green</name>
+            <subject>English Literature</subject>
+        </teacher>
+    </teachers>
+    <courses>
+        <course code="MATH101">
+            <title>Algebra I</title>
+            <credits>3</credits>
+        </course>
+        <course code="ENG201">
+            <title>English Literature II</title>
+            <credits>3</credits>
+        </course>
+    </courses>
+</school>
