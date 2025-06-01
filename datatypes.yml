@@ -1,0 +1,49 @@
+# String variables
+myself: Gary Ma
+fruit: "apple"
+job: 'Software Engineer'
+
+# write in multiple lines
+bio: |
+  hey my name is Gary ma.
+  I am a software engineer.
+
+# write a single line in multiple lines
+message: >
+    This is a long message
+    that spans multiple lines.
+    It will be folded into a single line.
+# same as above but with a different syntax
+message1: This is a long message that spans multiple lines. It will be folded into a single line.
+
+# Primitives
+age: 56
+height: 5.9
+weight: 70.5
+is_student: false
+boolean_value: No # n, N, false, False, no, No, 0 are all false
+
+# Null value
+is_married: null
+surname: !!null Null # or null NULL ~
+~: this is a null key
+
+# Date and time
+birth_date: 1990-01-01
+# Time with timezone
+birth_time: 12:00:00+05:30
+sast: 2023-10-01T10:30:00+05:30 # ISO 8601 format
+
+# specified types
+zero: !!int 0 # integer
+positiveNumber: !!int 123 # integer
+negativeNumber: !!int -123 # integer
+binaryNum: !!int 0b1010 # binary integer
+octalNum: !!int 0o12 # octal integer
+hexa: !!int 0x1A # hexadecimal integer
+commaValue: !!int +1_234_000 # integer with comma
+
+# float
+pi: !!float 3.14 # float
+infinite: !!float .inf # positive infinity
+not a num: !!float .nan # not a number
