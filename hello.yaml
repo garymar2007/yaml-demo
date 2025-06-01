@@ -1,0 +1,15 @@
+"apple" : "I am a red fruit"
+1 : "this is Gary ma's roll number"
+--- # Document seperator
+# lists
+- apple
+- banana
+- cherry
+- grape
+---
+fruits:
+  - "apple"
+  - "banana"
+  - "cherry"
+  - "grape"
+... # End of file
