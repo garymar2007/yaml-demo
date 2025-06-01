@@ -1,0 +1,87 @@
+student: !!seq
+  - marks
+  - name
+  - roll_no
+
+# similiarly
+student2: [marks, name, roll_no]
+
+# Spark sequence - some of the keys of the sequence will be empty
+sparse seq:
+  - hey
+  - how
+  -
+  - Null
+
+#nested sequence
+-
+  - mango
+  - apple
+  - banana
+-
+  - marks
+  - roll num
+  - date
+
+# keys: value pairs are called maps
+!!map
+
+# nested mappings: map within a map
+name: Gary
+role:
+  age: 38
+  job: student
+
+# pairs: keys may have duplicate values
+# !!pairs
+pair example: !!pairs
+  - job: student
+  - job: teacher
+
+# similarly
+pair example1: !!pairs [job: student, job: teacher]
+
+# !! set will allow you to have unique values
+set example: !!set
+  ? apple
+  ? banana
+  ? mango
+  ? apple
+
+## dictionary !!omap
+people: !!omap
+  - Gary:
+        name: Gary Ma
+        age: 39
+        height: 178
+  - John:
+        name: John Doe
+        age: 40
+        height: 180
+  - Jane:
+        name: Jane Smith
+        age: 35
+        height: 165
+
+# reuse some properties using anchors
+# still can override the properties
+likings: &likes
+    fav fruit: mango
+    dislikes: grapes
+
+person1:
+    name: Gary
+    age: 39
+    height: 178
+    << : *likes
+person2:
+    name: John
+    age: 40
+    height: 180
+    << : *likes
+person3:
+    name: Jane
+    age: 35
+    height: 165
+    << : *likes
+    dislikes: oranges
