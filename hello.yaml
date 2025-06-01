@@ -12,4 +12,8 @@ fruits:
   - "banana"
   - "cherry"
   - "grape"
+---
+cities: [new delhi, mumbai, bangalore, chennai]
+---
+{mango: "yellow fruit", age: 56, type: "tree"}
 ... # End of file
