@@ -41,3 +41,8 @@ Tutorial vidoe: https://www.youtube.com/watch?v=IA90BTozdow
 ```YAML Lint```
 ```YAML to JSON Converter```
 ```YAML to XML Converter```
+
+```Datree```
+```Monokle```
+```lens```
+```k9s```
